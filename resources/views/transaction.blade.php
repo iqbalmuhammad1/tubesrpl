@@ -61,8 +61,7 @@
 						<li><a class="dropdown-item" href="appoinment.html">Riwayat Transaksi</a></li>
 					</ul>
 			  	</li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">Login</a></li>
-			    <li class="nav-item"><a class="nav-link" href="contact.html">Sign Up</a></li>
+                <li class="nav-item"><a class="nav-link" href="/uangku">Sign Out</a></li>
 			</ul>
 		  </div>
 		</div>
