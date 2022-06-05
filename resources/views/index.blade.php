@@ -47,9 +47,9 @@
 			    <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-                        <li><a class="dropdown-item" href="transaction">Transaction</a></li>
-						<li><a class="dropdown-item" href="multipayment">MultiPayment</a></li>
-						<li><a class="dropdown-item" href="transfer">Transfer via Friends</a></li>
+                        <li><a class="dropdown-item" href="/uangku/transaction">Transaction</a></li>
+						<li><a class="dropdown-item" href="/uangku/multipayment">MultiPayment</a></li>
+						<li><a class="dropdown-item" href="/uangku/transfer">Transfer via Friends</a></li>
 					</ul>
 			  	</li>
 
