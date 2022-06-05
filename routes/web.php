@@ -17,6 +17,13 @@ Route::get('/uangku', function () {
     return view('login');
 });
 
-Route::get('/uangku/register','App\Http\Controllers\uangkuController@register');
-Route::post('store','App\Http\Controllers\uangkuController@store');
-Route::get('/uangku/signin','App\Http\Controllers\uangkuController@signin');
+Route::get('/uangku/register','App\Http\Controllers\uangkuController@register');    //route dari sign in > register
+Route::post('store','App\Http\Controllers\uangkuController@store');                 //route untuk tombol sign up input data kedatabase
+Route::get('signin','App\Http\Controllers\uangkuController@signin');                //route dari register > sign in
+//Route::get('afterlogin','App\Http\Controllers\uangkuController@afterlogin');        //route dari login > index
+Route::post('afterlogin','App\Http\Controllers\uangkuController@afterlogin');        //route dari login > index
+Route::get('/uangku/about','App\Http\Controllers\uangkuController@about');           //route navigasi
+Route::get('/uangku/index','App\Http\Controllers\uangkuController@index');
+Route::get('/uangku/multipayment','App\Http\Controllers\uangkuController@multipayment'); //route navigasi
+Route::get('/uangku/transfer','App\Http\Controllers\uangkuController@transfer');            //route navigasi
+Route::get('/uangku/transaction','App\Http\Controllers\uangkuController@transaction');  //route navigasi

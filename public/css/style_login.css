@@ -7,8 +7,8 @@ body{
 }
 .menu {
     display: block;
-    background-color:#00A6BB;
-    height: 55px;
+    background-color: #fff;
+    height: 100px;
 }
 #navigasi {
     position:relative;
@@ -20,15 +20,15 @@ body{
 }
 #navigasi a {
     display:block;
-    padding:12px 16px;
-    background-color:#00A6BB;
+    padding: 35px 16px;
+    background-color:bec8d1;
     color: black;
     text-decoration:none;
     margin-right: 20px;
 }
 #navigasi a:hover {
-    background-color:#00BCD4;
-    color:#fff;
+    background-color:rgb(241, 241, 241);
+    color:rgb(5, 122, 161);
 }
 #navigasi li {
     position:relative;

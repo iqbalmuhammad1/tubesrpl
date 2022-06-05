@@ -11,7 +11,9 @@ class uangkuController extends Controller
     public function index()
 	{
     	// mengambil data dari table wisata
-		$user = tubes_rpl::all();
+		//$user = tubes_rpl::all();
+
+		return view('index');
     }
 
     public function register()
@@ -43,7 +45,7 @@ class uangkuController extends Controller
 			'password' => $user->password,
 		]);
 		// alihkan halaman ke halaman home
-		return redirect('/login');
+		return redirect('/uangku');
  
 	}
 
@@ -60,6 +62,22 @@ class uangkuController extends Controller
         //     return redirect()->intended('/wisata.ind');
         // }
 
-        return view('login');
+        return view('index');
     }
+
+	public function about() {
+		return view('about');
+	}
+
+	public function transaction() {
+		return view('transaction');
+	}
+
+	public function multipayment() {
+		return view('multipayment');
+	}
+
+	public function transfer() {
+		return view('transfer');
+	}
 }

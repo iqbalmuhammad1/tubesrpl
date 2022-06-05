@@ -22,13 +22,10 @@
         <div class="menu">
             <ul id="navigasi">
                 <div id="logo">
-                    <img src="/asset/logo.png" style="width: 42px; margin: 6px;">
-                    <li><href="/wisataind">
-                        <span style="font-weight: bold">Uang</span><span style="color: #DE6E06; font-weight: bold">Ku</span>
-                    </li>
+                    <img src="/asset/logo-dd.png" style="width: 40%; margin: 6px;">
                 </div>                
                 <li><a href="#"><i class="fas fa-bars "></i></a></li>
-                <li><a href="/wisataind">Home</a></li>
+                <li><a href="/uangku">Home</a></li>
             </ul>
         </div>
 
@@ -54,10 +51,10 @@
                     <input type="password" class="form-control" id="inputdata" placeholder="Password" name="password" style="width:330px; border-radius: 8px; background-color: #EFE9E9; border:none;">
                     </div>
                     
-                    <center><button type ="submit" class="btn-regist btn-primary btn-sm" href="{{('uangku')}}" style="width:120px; padding:1px; border-radius: 5px; font-weight:bold; margin: 25px;backgrounf-color: #466AC5;">Sign Up</button></center>
+                    <center><button type ="submit" class="btn-regist btn-primary btn-sm" href="{{('/uangku')}}" style="width:120px; padding:1px; border-radius: 5px; font-weight:bold; margin: 25px;backgrounf-color: #466AC5;">Sign Up</button></center>
                 </div>
                 <div class="text-center" style="margin: 5px; margin-bottom:15px;">
-                    Sudah memiliki akun? <a href="{{('/uangku/login')}}">Sign in</a>
+                    Sudah memiliki akun? <a href="{{('/uangku')}}">Sign in</a>
                 </div>
             </div>
         </div>

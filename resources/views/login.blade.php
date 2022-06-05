@@ -21,13 +21,10 @@
         <div class="menu">
             <ul id="navigasi">
                 <div id="logo">
-                    <img src="/asset/logo.png" style="width: 42px; margin: 6px;">
-                    <li><href="/wisataind">
-                        <span style="font-weight: bold">Uang</span><span style="color: #DE6E06; font-weight: bold">Ku</span>
-                    </li>
+                    <img src="/asset/logo-dd.png" style="width: 40%; margin: 6px;">
                 </div>
                 <li><a href="#"><i class="fas fa-bars "></i></a></li>
-                <li><a href="/wisataind">Home</a></li>
+                <li><a href="/uangku">Home</a></li>
             </ul>
         </div>
 
@@ -50,7 +47,7 @@
                     <input type="password" class="form-control" id="password" name="password" placeholder="Password" style="width:330px; border-radius: 8px; background-color: #EFE9E9; border:none;">
                     </div>
                     
-                    <center><button class="btn btn-primary btn-sm" style="width:120px; padding:1px; border-radius: 5px; font-weight:bold; margin: 30px; margin-bottom:5px; backgrounf-color: #466AC5;" href="{{('/uangku')}}">Login</button></center>
+                    <center><button class="btn btn-primary btn-sm" style="width:120px; padding:1px; border-radius: 5px; font-weight:bold; margin: 30px; margin-bottom:5px; backgrounf-color: #466AC5;" href="{{('/uangku/index')}}">Login</button></center>
                 
                     <div class="text-center" style="margin: 15px;">
                         Belum punya akun? <a href="/uangku/register">Sign Up</a>
