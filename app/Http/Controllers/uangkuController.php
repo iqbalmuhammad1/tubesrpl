@@ -35,12 +35,15 @@ class uangkuController extends Controller
 		// insert data ke table 
 		$this->validate($user,[
 			'nama_lengkap' => 'required',
+			'no_hp' => 'required',
 			'username' => 'required',
 			'password' => 'required',
+			
 		]);
 
 		DB::table('user')->insert([
 			'nama_lengkap' => $user->nama_lengkap,
+			'no_hp' => $user->no_hp,
 			'username' => $user->username,
 			'password' => $user->password,
 		]);
@@ -79,5 +82,13 @@ class uangkuController extends Controller
 
 	public function transfer() {
 		return view('transfer');
+	}
+
+	public function saldo() {
+		return view('saldo');
+	}
+
+	public function profile() {
+		return view('profile');
 	}
 }

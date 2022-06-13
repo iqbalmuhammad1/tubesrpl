@@ -27,3 +27,5 @@ Route::get('/uangku/index','App\Http\Controllers\uangkuController@index');
 Route::get('/uangku/multipayment','App\Http\Controllers\uangkuController@multipayment'); //route navigasi
 Route::get('/uangku/transfer','App\Http\Controllers\uangkuController@transfer');            //route navigasi
 Route::get('/uangku/transaction','App\Http\Controllers\uangkuController@transaction');  //route navigasi
+Route::get('/uangku/saldo','App\Http\Controllers\uangkuController@saldo'); 
+Route::get('/uangku/profile','App\Http\Controllers\uangkuController@profile');        //route navigasi

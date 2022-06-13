@@ -47,7 +47,7 @@
 			    <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="transaction.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="/uangku/transaction">Transaction</a></li>
+						<li><a class="dropdown-item" href="/uangku/transaction">Transfer</a></li>
 						<li><a class="dropdown-item" href="/uangku/multipayment">MultiPayment</a></li>
 						<li><a class="dropdown-item" href="#transfer.html">Transfer via Friends</a></li>
 					</ul>
@@ -57,7 +57,7 @@
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
 						<li><a class="dropdown-item" href="doctor.html">User Profile</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Dompet Saya</a></li>
+						<li><a class="dropdown-item" href="saldo">Dompet Saya</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Top-Up Saldo</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Riwayat Transaksi</a></li>
 					</ul>
@@ -113,16 +113,6 @@
 			</div>
 
 			<div class="col-lg-2 col-md-2">
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="trans-block mb-5">
-					<img src="images\about\img-trans.jpg" alt="" class="img-fluid w-100">
-					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Pay with DomTal-Pay</h4>
-						<p class="mb-4">melakukan pembayaran dengan saldo kamu di DomTal-Pay</p>
-						<a href="#" class="read-more">Pay Now<i class="icofont-simple-right ml-2"></i></a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

@@ -29,11 +29,11 @@
             </ul>
         </div>
 
-        <center><div class="container" style="margin-top: 110px;"></center>
+        <center><div class="container" style="margin-top: 75px;"></center>
         <form action="{{url('store')}}" method="post" >
         <div class="row">
             <div class="col-md-6 offset-md-3">
-            <div class="card" style="width: 380px; height: 350px; margin-left:120px;">
+            <div class="card" style="width: 380px; height: 400px; margin-left:120px;">
                 <div class="card-body">
                 <label style="text-align: left; margin:20px;margin-left: 5px;margin-top:5px; font-size: 25px;"><b>Register</b></label>
                 
@@ -41,7 +41,11 @@
                     {{csrf_field()}}
                     <div class="form-group">
                     <input type="text" class="form-control" id="inputdata" placeholder="Nama Lengkap" name="nama_lengkap" style="width:330px;border-radius: 8px; background-color: #EFE9E9; border:none;">
-                    </div>     
+                    </div>
+                    
+                    <div class="form-group">
+                    <input type="text" class="form-control" id="inputdata" placeholder="Nomor Handphone" name="no_hp" style="width:330px;border-radius: 8px; background-color: #EFE9E9; border:none;">
+                    </div>
 
                     <div class="form-group">
                     <input type="text" class="form-control" id="inputdata" placeholder="Email" name="username" style="width:330px;border-radius: 8px; background-color: #EFE9E9; border:none;">

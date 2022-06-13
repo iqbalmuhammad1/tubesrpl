@@ -46,17 +46,16 @@
 			    <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="transaction.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="#transaction">Transaction</a></li>
+						<li><a class="dropdown-item" href="#transaction">Transfer</a></li>
 						<li><a class="dropdown-item" href="/uangku/multipayment">MultiPayment</a></li>
-						<li><a class="dropdown-item" href="/uangku/transfer">Transfer via Friends</a></li>
 					</ul>
 			  	</li>
 
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="doctor.html">User Profile</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Dompet Saya</a></li>
+						<li><a class="dropdown-item" href="profile">User Profile</a></li>
+						<li><a class="dropdown-item" href="saldo">Dompet Saya</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Top-Up Saldo</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Riwayat Transaksi</a></li>
 					</ul>
@@ -78,54 +77,13 @@
         <div class="block text-center">
           <span class="text-white">Pay With Dompet Digital</span>
           <h1 class="text-capitalize mb-5 text-lg">Transaction</h1>
+		  <a href="#transfer" class="read-more">Pay Now<i class="icofont-simple-right ml-2"></i></a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<section class="section service-2">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center">
-				<div class="section-title">
-					<!--h2>Award winning patient care</h2>
-					<div class="divider mx-auto my-4"></div-->
-					<p>Anda bisa mengirim uang dan melakukan transaksi secara online</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-1 col-md-1">
-			</div>
-			<div class="col-lg-4 col-md-6 ">
-				<div class="trans-block mb-5">
-					<img src="images\about\img-pay1.jpg" alt="" class="img-fluid w-100">
-					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Transfer via Bank</h4>
-						<p class="mb-4">Transfer ke bank mana saja</p>
-						<a href="#" class="read-more">Pay Now<i class="icofont-simple-right ml-2"></i></a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-2">
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="trans-block mb-5">
-					<img src="images\about\img-trans.jpg" alt="" class="img-fluid w-100">
-					<div class="content">
-						<h4 class="mt-4 mb-2 title-color">Pay with DomTal-Pay</h4>
-						<p class="mb-4">melakukan pembayaran dengan saldo kamu di DomTal-Pay</p>
-						<a href="#" class="read-more">Pay Now<i class="icofont-simple-right ml-2"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <!-- footer Start -->
 <footer class="footer section gray-bg">

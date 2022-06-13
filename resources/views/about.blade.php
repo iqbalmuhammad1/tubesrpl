@@ -46,17 +46,16 @@
 			    <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Payment<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="transaction">Transaction</a></li>
-						<li><a class="dropdown-item" href="multipayment">MultiPayment</a></li>
-						<li><a class="dropdown-item" href="transfer">Transfer via Friends</a></li>
+					<li><a class="dropdown-item" href="transaction">Transfer</a></li>
+						<li><a class="dropdown-item" href="/uangku/multipayment">MultiPayment</a></li>
 					</ul>
 			  	</li>
 
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="doctor.html">User Profile</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Dompet Saya</a></li>
+						<li><a class="dropdown-item" href="profile">User Profile</a></li>
+						<li><a class="dropdown-item" href="saldo">Dompet Saya</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Top-Up Saldo</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Riwayat Transaksi</a></li>
 					</ul>

@@ -20,6 +20,7 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
+  <link rel="stylesheet" href="{{asset('css/stylesaldo.css')}}"/>
 
 </head>
 
@@ -56,7 +57,7 @@
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile<i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="/uangku/profile">User Profile</a></li>
+						<li><a class="dropdown-item" href="profile">User Profile</a></li>
 						<li><a class="dropdown-item" href="/uangku/saldo">Dompet Saya</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Top-Up Saldo</a></li>
 						<li><a class="dropdown-item" href="appoinment.html">Riwayat Transaksi</a></li>
@@ -73,113 +74,56 @@
 <section class="banner">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-xl-7">
-				<div class="block">
-					<div class="divider mb-3"></div>
-					<span class="text-uppercase text-sm letter-spacing ">Dompet Digital Is Your Choice</span>
-					<h1 class="mb-3 mt-3">Transaksi lebih mudah bersama Dompet Digital</h1>
-					
-					<p class="mb-4 pr-5">Solusi Bersama</p>
-					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">GET STARTED<i class="icofont-simple-right ml-2  "></i></a>
-					</div>
-				</div>
-			</div>
+		<section classname="snippet-body">
+    	<div class="container d-flex justify-content-center mt-5">
+
+        <div class="card">
+
+            <div class="top-container">
+
+				<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.static-src.com%2Fwcsstore%2FIndraprastha%2Fimages%2Fcatalog%2Fmedium%2F%2F100%2FMTA-23512789%2Fbrd-67586_-letoy-minions-bob-takara-tomy-_full01.jpg&imgrefurl=https%3A%2F%2Fwww.blibli.com%2Fjual%2Fminions-bob&tbnid=cTe4Bm6FA1Ol5M&vet=12ahUKEwj79bXar6n4AhUy_jgGHZEvD8gQMygZegUIARDuAQ..i&docid=5E0VB-KI6ZT7VM&w=380&h=380&q=minion&client=opera&ved=2ahUKEwj79bXar6n4AhUy_jgGHZEvD8gQMygZegUIARDuAQ" class="img-fluid profile-image" width="70">
+
+                <div class="ml-3">
+                    <h5 class="name">Rembrandt</h5>
+                    <p class="User ID">rembrandtnueve</p>
+            </div>
+        </div>
+
+        <div class="middle-container d-flex justify-content-between align-items-center mt-3 p-2">
+            <div class="dollar-div px-3">
+
+                <div class="round-div"><i class="fa fa-dollar dollar"></i></div>
+
+            </div>
+            <div class="d-flex flex-column text-right mr-2">
+                <span class="current-balance">Current Balance</span>
+                <span class="amount"><span class="dollar-sign">Rp</span>8.765.990</span>
+            </div>
+        </div>
+
+        <div class="recent-border mt-4">
+            <span class="recent-orders">Recent orders</span>
+        </div>
+        <div class="wishlist-border pt-2">
+            <span class="wishlist">Wishlist</span>
+        </div>
+        <div class="fashion-studio-border pt-2">
+            <span class="fashion-studio">Fashion studio</span>
+        </div>
+		</div>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript">
+			var myLink = document.querySelectorAll('a[href="#"]');
+			myLink.forEach(function(link){
+			link.addEventListener('click', function(e) {
+				e.preventDefault();
+			});
+			});
+		</script>
 		</div>
 	</div>
+	</section>
 </section>
-<section class="features">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="feature-block d-lg-flex">
-					<div class="feature-item mb-5 mb-lg-0">
-						<!--div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
-						</div>-->
-						<h4 class="mb-3">Transaction</h4>
-						<p class="mb-4">Mengirim uang dengan cepat dan mudah ke bank apa saja</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Go To Transaction</a>
-					</div>
-					<div class="feature-item mb-5 mb-lg-0">
-						<!--div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
-						</div-->
-						<h4 class="mb-3">MultiPayment</h4>
-						<p class="mb-4">Melakukan berbagai jenis pembayaran sesuai dengan kebutuhan</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Go To MultiPayment</a>
-					</div>
-					<div class="feature-item mb-5 mb-lg-0">
-						<!--div class="feature-icon mb-4">
-							<i class="icofont-surgeon-alt"></i>
-						</div-->
-						<h4 class="mb-3">Transfer via Friends</h4>
-						<p class="mb-4">Anda dapat melakukan transfer uang ke sesama pengguna Dompet Digital</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Transaction via Friends</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- footer Start -->
-<footer class="footer section gray-bg">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 mr-auto col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<div class="logo mb-4">
-						<img src="asset\logo-dd.png" alt="" class="img-fluid">
-					</div>
-					<p>Bersama Dompet Digital, Transaksi Jauh Lebih Mudah</p>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Payment</h4>
-					<div class="divider mb-4"></div>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Transaction</a></li>
-						<li><a href="#">MultiPayment</a></li>
-						<li><a href="#">Transfer via Friends</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-lg-2 col-md-6 col-sm-6">
-				<div class="widget mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Support</h4>
-					<div class="divider mb-4"></div>
-
-					<ul class="list-unstyled footer-menu lh-35">
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">FAQuestions</a></li>
-						<li><a href="#">Company Licence</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="widget widget-contact mb-5 mb-lg-0">
-					<h4 class="text-capitalize mb-3">Get in Touch</h4>
-					<div class="divider mb-4"></div>
-
-					<div class="footer-contact-block mb-4">
-						<div class="icon d-flex align-items-center">
-							<span class="h6 mb-0">RPL Kelompok 9 (IF-43-04)</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-
-   
 
     <!-- 
     Essential Scripts
